@@ -28,7 +28,8 @@ public class QuickSort {
         int pointOfDivision = array[middle];
 
         // split into subarrays which is larger and smaller than the point of division
-        int i = low, j = high;
+        int i = low; 
+        int j = high;
         while (i <= j) {
             while (array[i] < pointOfDivision) {
                 i++;
